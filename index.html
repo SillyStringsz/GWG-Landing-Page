@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GWG</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 6rem;
+      margin: 0 0 30px;
+    }
+
+    .image-row {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-row img {
+      max-width: 300px;
+      max-height: 300px;
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 4rem;
+      }
+
+      .image-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>GWG</h1>
+  <div class="image-row">
+    <img src="https://media.giphy.com/media/fK5TxbrJZyR3FnLoJ4/giphy.gif" alt="Bear GIF" />
+    <img src="https://media.giphy.com/media/TGzq9xFfeXvyo/giphy.gif" alt="Shark GIF" />
+  </div>
+</body>
+</html>
